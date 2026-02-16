@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 3 CSS Practice</title>
+
+    <style>
+        
+
+        body{
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        p{
+            padding: 10px;
+            border: 1px solid gray;
+            margin-bottom: 15px;
+        }
+
+        button{
+            background-color: green;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Day 3 CSS Assignment</h1>
+
+    <p>
+        This is a simple paragraph to demonstrate CSS styling such as margin,
+        padding, border, and font styling.
+    </p>
+
+    <button>Click Me</button>
+
+</body>
+</html>
