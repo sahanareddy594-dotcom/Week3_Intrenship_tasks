@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 5 – Responsive Design</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+            font-family:Arial;
+        }
+
+        .container{
+            width:100%;
+        }
+
+        .box{
+            float:left;
+            width:33.33%;    
+            padding:40px;
+            text-align:center;
+            border:1px solid black;
+        }
+
+        .box1{ background:#f8b400; }
+        .box2{ background:#6ec1e4; }
+        .box3{ background:#8bc34a; }
+
+
+        @media (max-width:768px){
+            .box{
+                width:100%;   /* stack boxes vertically */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h2 style="text-align:center;margin:20px;">Day 5 – Responsive Design</h2>
+
+<div class="container">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+</div>
+
+</body>
+</html>
