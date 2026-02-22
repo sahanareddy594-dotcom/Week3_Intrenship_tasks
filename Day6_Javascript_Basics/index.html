@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 6 JavaScript Basics</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h2>JavaScript Practice</h2>
+
+
+<button onclick="showAlert()">Click for Alert</button>
+
+<hr>
+
+
+<p id="text">This is original text</p>
+<button onclick="changeText()">Change Text</button>
+
+<hr>
+
+
+<h3>Registration Form</h3>
+<form onsubmit="return validateForm()">
+    Name: <input type="text" id="name"><br><br>
+    Email: <input type="text" id="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+
+<h3>Simple Calculator</h3>
+<input type="number" id="num1" placeholder="First number">
+<input type="number" id="num2" placeholder="Second number">
+<br><br>
+<button onclick="add()">Add</button>
+<p id="result"></p>
+
+</body>
+</html>
