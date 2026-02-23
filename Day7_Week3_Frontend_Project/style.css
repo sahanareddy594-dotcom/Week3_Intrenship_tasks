@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: #555;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    padding: 8px 15px;
+    background: teal;
+    color: white;
+    border: none;
+}
